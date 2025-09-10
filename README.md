@@ -52,4 +52,15 @@ GET : get all issued books with their amount
 
 npm init
 npm i express
-npm i nodemon
+npm i nodemon --dev
+
+npm run dev
+mongodb+srv://shajida:<db_password>@cluster0.1ez0tc1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+RZ72s1DYlgKG72T2
+shajida:RZ72s1DYlgKG72T2@cluster0.1ez0tc1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+## MVC Architecture
+
+    >>M:Model (structure of our mongodb)
+    >>V:View (frontend)
+    >>C:Controllers(brain,logic of a route)
